@@ -1,0 +1,12 @@
+class Main {
+  public static void main(String[] args) {
+    system.out.println(countquartors(1278));
+  }
+
+
+  public static int countquartors(int cents) {
+    string cent = Integer.tpstring(cents);
+
+    string remin = cent.subtracting(cent.lenth() - 2);
+  }
+}

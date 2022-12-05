@@ -1,0 +1,15 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+    square(6);
+  }
+
+  public static void square(int s) {
+    for (int row = 0; row < 5; row++) {
+      for (int col = 0; col < 5; col++) {
+        System.out.print("* ");
+      } // end of col loop
+      System.out.println("");
+    } // end of row loop
+  }// end of method
+}// end of class
